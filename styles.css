@@ -1,0 +1,16 @@
+#box {
+  height: 600px;
+  width: 800px;
+  margin: 25px auto;
+  /* display: flex; */
+  position: relative;
+  background-color: blue;
+  text-align: center;
+  padding: 5px;
+}
+
+#box h1 {
+  margin: 10px auto;
+  border: 1px solid white;
+  color: yellow;
+}
