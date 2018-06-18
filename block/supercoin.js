@@ -47,11 +47,13 @@ module.exports = {
       }
         let supercoin = new Blockchain();
         console.log("Mining block 1");
-        date = Date()
-        supercoin.addBlock(new Block(1, date , { amount: 6} ));
+        date = new Date()
+        supercoin.addBlock(new Block(1, date , { whatever: "you want"} ));
         console.log("Mining block 2");
-        date = Date()
-        supercoin.addBlock(new Block(2, date , { amount: 9} ));
+        date = new Date()
+        supercoin.addBlock(new Block(2, date , { whatever: "you want"} ));
+        date = new Date()
+        supercoin.addBlock(new Block(3, date , { whatever: "you want"} ));
       console.log("supercoin", JSON.stringify(supercoin, null, 5))
       res.json(supercoin, null, 4)
   }
