@@ -5,6 +5,6 @@ angular.module('app',['ui.router'])
       .state('home', {
         url: '/',
         templateUrl: "index.html",
-        // controller: "supercoin"
+        controller: "mainCtrl"
       })
   })

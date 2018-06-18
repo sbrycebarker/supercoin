@@ -14,3 +14,11 @@
   border: 1px solid white;
   color: yellow;
 }
+
+#title {
+  cursor: pointer;
+}
+
+#title:active {
+  background-color: yellow
+}
